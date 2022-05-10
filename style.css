@@ -1,0 +1,50 @@
+/*modifica contenuto dell'intestazione della pagina */
+body{
+    background-color: black;
+}
+
+.container1{
+    background-color: #fff;
+    width: 1080px;
+    height: 1920px;
+    margin: 0 auto;
+
+}
+.container2{ 
+    background-image: url(img/pattern.png) ;
+    background-repeat: repeat-x;
+    background-color:rgb(126, 178, 245)   ;
+    height: 200px;
+    width: auto;
+}
+
+.container2 img{
+   
+    object-fit: scale-down;
+    object-position: 0% 40%;
+}
+
+/* autore*/
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+/*credits autore*/
+.credits{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(186, 19, 19);
+}
+.author{
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}
+
+figure{
+    margin-left: 0%;
+}
+
+.speaker{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-small;
+    
+}
